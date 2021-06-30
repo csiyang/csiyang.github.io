@@ -30,6 +30,11 @@ body, html {
     padding-bottom: 10%;
 }
 
+div.menu-bar {
+    position: sticky;
+    top: 0;
+}
+
 .menu-bar ul {
     list-style-type: none;
     margin: 0%;
