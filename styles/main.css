@@ -94,3 +94,28 @@ div.menu-bar {
     height: auto;
     padding-right: 10%;
 }
+
+/* ------------ For phone screens ------------ */
+@media (max-width: 700) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 10;
+    }
+
+    p {
+        font-size: 5;
+    }
+
+    .hero-image {
+        height: 20%;
+    }
+
+    .content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
