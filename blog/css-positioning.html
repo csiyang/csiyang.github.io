@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Siyang's Blog</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Siyang's Blog</h1>
+            <p>A Dev Academy Exercise</p>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="menu-bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a id="active" href="blog-list.html">Blog Post Archive</a></li>
+                <li><a href="../picture-archive.html">Pictures</a></li>
+                <li><a href="../about-me.html">About Me</a></li>
+                <li><a href="../resources.html">Resources</a></li>
+            </ul>
+        </div>
+
+        <a href="blog-list.html">List of all posts</a>
+
+        <h1 id="title">Technical Blog: CSS Positioning</h1>
+        <h2>Relative vs Absolute vs Fixed</h2>
+        <p>
+            The position property is one of the many CSS elements that help with the ‘positioning’ of different elements of a website. While its importance may seem trivial to some at first, it is one of the most important properties to give your site the best possible
+            user experience.
+        </p>
+        <p>
+            There are 5 total properties for position, which are Static, Relative, Absolute, Fixed and Sticky. The Static is the default layout for a web page, based on the element above, it will place the next element below. (For a quick example of Sticky, have
+            a look at the nav bar as you scroll!)
+        </p>
+        <h3>Relative</h3>
+        <p>
+            The Relative property builds upon Static by allowing the programmer to adjust where the element would have been had it been static. The start location is based of the element that is before it.
+        </p>
+        <h3>Absolute</h3>
+        <p>
+            This property in some ways is very similar to relative, but where it differs is it removes the element from the ‘flow’ of the page. To put simply, instead of elements going one after the other, it allows the element to stack together.
+        </p>
+        <h3>Fixed</h3>
+        <p>
+            Much as the name describes, this property will make the element relative to the user’s screen and no matter how much the page is scrolled the element will always remain there.
+        </p>
+        <h3>Examples!</h3>
+        <div class="static">
+            This element is static and it's also the default!
+        </div>
+        <div class="relative">
+            This element is relative and has been adjusted 60 pixeles to the right!
+        </div>
+        <div class="absolute">
+            This element is absolute, try changing the screen size to see my destructive power!
+        </div>
+        <div class="fixed">
+            This element is fixed to the bottom left!
+        </div>
+
+
+    </div>
+</body>
+
+<!-- 
+Having problems with the footer
+<footer>
+    <p>┻━┻︵ \(°□°\) &emsp; Made by Siyang &emsp; (╯°□°)╯︵ ┻━┻</p>
+</footer> 
+-->
+
+</html>
