@@ -130,11 +130,19 @@ div.menu-bar {
     text-align: center;
 }
 
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding: 5% 0;
+}
+
 #me-image {
-    float: left;
-    width: 40%;
+    display: block;
+    width: 30%;
     height: auto;
-    padding-right: 10%;
+    border-radius: 50%;
+    align-items: center;
+    margin: 5% auto;
 }
 
 
@@ -164,6 +172,9 @@ div.menu-bar {
         padding-left: 5%;
         padding-right: 5%;
     }
+    #me-image {
+        width: 20%;
+    }
 }
 
 
@@ -188,5 +199,8 @@ div.menu-bar {
     .main {
         padding-left: 30%;
         padding-right: 30%;
+    }
+    #me-image {
+        width: 40%;
     }
 }
