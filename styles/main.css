@@ -140,7 +140,7 @@ div.menu-bar {
 
 /* ------------ For phone screens ------------ */
 
-@media (max-width: 700) {
+@media (max-width: 768px) {
     h1 {
         font-size: 20px;
     }
@@ -154,7 +154,7 @@ div.menu-bar {
         height: 20%;
     }
     .content {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
