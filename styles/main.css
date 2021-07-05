@@ -74,6 +74,11 @@ div.fixed {
     background-color: lightcoral;
 }
 
+p.story-text {
+    margin: 5% 7%;
+    font-style: italic;
+}
+
 
 /* ------------ Menu bar ------------ */
 
