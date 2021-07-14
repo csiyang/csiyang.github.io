@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,14 +20,15 @@
 
     <div class="main">
 
-        <div class="menu-bar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog/blog-list.html">Blog Post Archive</a></li>
-                <li><a id="active" href="picture-archive.html">Pictures</a></li>
-                <li><a href="about-me.html">About Me</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
+        <div class="nav-bar" id="nav">
+            <a href="index.html">Home</a>
+            <a href="blog/blog-list.html">Blog Post Archive</a>
+            <a class="active" href="picture-archive.html">Pictures</a>
+            <a href="about-me.html">About Me</a>
+            <a href="resources.html">Resources</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
 
         <div class="content">
@@ -42,6 +44,17 @@
         </footer>
 
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.className === "nav-bar") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+        }
+    </script>
 </body>
 
 </html>
