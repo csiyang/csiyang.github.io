@@ -160,6 +160,9 @@ div.fixed {
     p {
         font-size: 15px;
     }
+    footer {
+        font-size: 10px;
+    }
     .hero-image {
         height: 20%;
     }
@@ -189,7 +192,7 @@ div.fixed {
 
 /* ------------ Responsive bar for small screens ------------ */
 
-@media screen and (max-wdith: 1000px) {
+@media screen and (max-width: 1000px) {
     .nav-bar.responsive {
         position: relative;
     }
