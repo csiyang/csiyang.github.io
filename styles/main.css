@@ -153,9 +153,9 @@ p.story-text {
 }
 
 
-/* ------------ For small screens ------------ */
+/* ------------ For mobile screens ------------ */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 320px) {
     h1 {
         font-size: 30px;
     }
@@ -194,8 +194,49 @@ p.story-text {
     }
 }
 
+/* ------------ For small screens ------------ */
 
-/* ------------ Responsive bar for small screens ------------ */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .hero-image {
+        height: 20%;
+    }
+    .nav-bar {
+        margin: 0 0;
+    }
+    .nav-bar a:not(:first-child) {
+        display: none;
+    }
+    .nav-bar a.icon {
+        float: right;
+        display: block;
+    }
+    .main {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #me-image {
+        width: 20%;
+    }
+}
+
+
+/* ------------ Responsive bar for phone screens ------------ */
 
 @media screen and (max-width: 1000px) {
     .nav-bar.responsive {
@@ -212,6 +253,7 @@ p.story-text {
         text-align: left;
     }
 }
+
 
 
 /* ------------ For 4k screens ------------ */
